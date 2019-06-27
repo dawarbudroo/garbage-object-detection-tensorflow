@@ -41,7 +41,7 @@ def load_image_into_numpy_array(image):
         (im_height, im_width, 3)).astype(np.uint8)
 
 def detect_objects(image_path):
-    image = Image.open('/var/scratch/msukel/Detect Garbage Bag/Custom-Object-Detection/test_images/'+image_path)
+    image = Image.open('/test_images/'+image_path)
     image_np = load_image_into_numpy_array(image)
     image_np_expanded = np.expand_dims(image_np, axis=0)
 
