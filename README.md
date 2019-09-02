@@ -56,7 +56,11 @@ python object_detection/train.py \
 
 The model used in the animation was trained for +/- 20.000 steps.
 
-### 6) Export the Inference Graph
+### 6)
+
+Choose option a or option b.
+
+### 6a) Export the Inference Graph
 The training time is dependent on the amount of training data. 
 
 You can find checkpoints for your model in `garbage-object-detection/train`.
@@ -77,6 +81,10 @@ python object_detection/export_inference_graph.py \
 ```
 
 You should see a new `output_inference_graph` directory with a `frozen_inference_graph.pb` file.
+
+### 6b) Download inference graph
+
+Download a pretrained inference graph from this [folder](https://drive.google.com/open?id=1Fe8HLvyxXfRVaQVTFcQgSyxokyQRDz87)
 
 ### 7) Test the Model
 Just run the following command:
