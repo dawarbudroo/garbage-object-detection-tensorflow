@@ -1,4 +1,6 @@
-# Garbage object detection (Alpha)
+# Garbage object detection in Tensorflow (Alpha)
+
+## [A new version of the model using YOLOv3 and PyTorch can be found here](https://github.com/maartensukel/yolov3-pytorch-garbage-detection)
 
 ![Example 1](https://github.com/maartensukel/garbage-object-detection/blob/master/examples/prediction_example_2.gif)
 
